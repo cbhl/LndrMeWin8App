@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="3dd2f3e3-ab0d-48e2-9293-992e4c5b4f56" Publisher="CN=Michael" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>LndrMeWin8App</DisplayName>
+    <PublisherDisplayName>Michael</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>LndrMeWin8App</Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="LndrMeWin8App.App">
+      <VisualElements DisplayName="lndr.me" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="lndr.me" ForegroundText="light" BackgroundColor="#23395b">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
